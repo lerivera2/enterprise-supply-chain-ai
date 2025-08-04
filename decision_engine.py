@@ -3,14 +3,14 @@ import numpy as np
 from typing import Dict, List, Any
 import anthropic
 import os
-from sentence_transformers import SentenceTransformer
+# Simplified for reliable deployment
 import plotly.express as px
 import requests
 from io import StringIO
 
 class SupplyChainAI:
     def __init__(self):
-        self.model = SentenceTransformer('all-MiniLM-L6-v2')
+        self.model = None  # Simplified for deployment
         self.claude = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY", ""))
         self.supply_data = None
         self.manual_text = ""
