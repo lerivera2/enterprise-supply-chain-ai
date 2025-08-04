@@ -45,7 +45,7 @@ AI-powered multi-modal intelligence system for enterprise supply chain optimizat
 
 ## Author
 
-**Luis Rivera** - AI Systems Integration Manager  
+**Luis Rivera** - Student of AI tools and tech
 Demonstration of: System Integration | Business Intelligence | Global Operations
 
 ## Contact
